@@ -1,0 +1,501 @@
+<template>
+
+    <div class="slds-table_edit_container slds-is-relative slds-scrollable_x">
+           <table aria-multiselectable="true"
+               class="slds-table slds-no-cell-focus slds-table_bordered slds-table_edit slds-table_fixed-layout slds-table_resizable-cols"
+               role="grid" style="width:66.75rem;margin-left: auto;margin-right: auto;border: 1px solid lightgray;"
+               aria-label="Example default inline edit table with cell focused">
+               <thead>
+                   <tr class="slds-line-height_reset">
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable sticky-col1" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">Maintenance Work Item</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable sticky-col2" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">Recurrence Pattern</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable sticky-col3" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">Asset Name and Maintenance Asset Number</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">January</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">February</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">March</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:9.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">April</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">May</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">June</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">July</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">August</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">September</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">October</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">November</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">December</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable sticky-col5" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">Work Rule Name</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>
+                       <!--<th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable sticky-col5" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">Work Type</span>
+                               </div>
+                           </div>
+                           <div class="slds-resizable">
+                               <span class="slds-resizable__handle">
+                     <span class="slds-resizable__divider"></span>
+                               </span>
+                           </div>
+                       </th>-->
+                   </tr>
+               </thead>
+   
+   <tbody>
+   
+   <template for:each={MWRresponse} for:item="resp">
+   
+   <template for:each={resp.finalWRList} for:item="obj">
+   
+                   <tr key={obj.Id} aria-selected="false" class="slds-hint-parent">
+                       <td class="slds-cell-edit sticky-col1" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+                           
+                               {obj.Title}
+                           
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit sticky-col2" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                               <lightning-formatted-text value={obj.Recurrent_Pattern__c}></lightning-formatted-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit sticky-col3" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+                               
+                               {obj.Asset__c}
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                               <!--<template for:each={mapData} for:item="mapKey">
+                                   <lightning-formatted-rich-text key={obj.Id} value={mapKey.value}></lightning-formatted-rich-text>
+                               </template>-->
+   
+                               <lightning-formatted-rich-text key={obj.Id} value={obj.WOrdersJan}></lightning-formatted-rich-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+                                   
+                               <lightning-formatted-rich-text key={obj.Id} value={obj.WOrdersFeb}></lightning-formatted-rich-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+                               
+                               <lightning-formatted-rich-text key={obj.Id} value={obj.WOrdersMar}></lightning-formatted-rich-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                               <lightning-formatted-rich-text key={obj.Id} value={obj.WOrdersApr}></lightning-formatted-rich-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                               <lightning-formatted-rich-text key={obj.Id} value={obj.WOrdersMay}></lightning-formatted-rich-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                               <lightning-formatted-rich-text key={obj.Id} value={obj.WOrdersJun}></lightning-formatted-rich-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                               <lightning-formatted-rich-text key={obj.Id} value={obj.WOrdersJul}></lightning-formatted-rich-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                               <lightning-formatted-rich-text key={obj.Id} value={obj.WOrdersAug}></lightning-formatted-rich-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                               <lightning-formatted-rich-text key={obj.Id} value={obj.WOrdersSep}></lightning-formatted-rich-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                               <lightning-formatted-rich-text key={obj.Id} value={obj.WOrdersOct}></lightning-formatted-rich-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                               <lightning-formatted-rich-text key={obj.Id} value={obj.WOrdersNov}></lightning-formatted-rich-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                               <lightning-formatted-rich-text key={obj.Id} value={obj.WOrdersDec}></lightning-formatted-rich-text>
+   
+                           </span>
+                       </td>
+                       <td class="slds-cell-edit sticky-col5 woPad" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                               {obj.Name}
+   
+                           </span>
+                       </td>
+                       <!--<td class="slds-cell-edit sticky-col5" role="gridcell">
+                           <span class="slds-grid slds-grid_align-spread">
+   
+                                  {obj.WorkType.Name}
+   
+                           </span>
+                       </td>-->
+                   </tr>
+   
+       </template>
+   
+   </template>
+   
+   </tbody>
+   
+               <!--<tfoot>
+                   <tr class="slds-line-height_reset">
+                       <td colspan="2" aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable sticky-col1"
+                           scope="col" style="width: 8.75rem;border-right: none;background-color: #fafaf9;">
+                           <div class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">Total Resource Charges -A</span>
+                               </div>
+                           </div>
+                       </td>
+                       <td colspan="5" aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name"></span>
+                               </div>
+                           </div>
+                       </td>
+                       <td colspan="1" aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div style="justify-content: center;" class="slds-th__action slds-text-link_reset" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">8816.8</span>
+                               </div>
+                           </div>
+                       </td>
+                       <td colspan="1" aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div style="justify-content: center;" class="slds-th__action slds-text-link_reset" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center c-f-proposed" title="Name">9315.8</span>
+                               </div>
+                           </div>
+                       </td>
+                       <td colspan="1" aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div style="justify-content: center;" class="slds-th__action slds-text-link_reset" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name"></span>
+                               </div>
+                           </div>
+                       </td>
+                       <td colspan="1" aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div style="justify-content: center;" class="slds-th__action slds-text-link_reset" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center c-f-effective" title="Name">7,455.1</span>
+                               </div>
+                           </div>
+                       </td>
+                       <td colspan="1" aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div style="justify-content: center;" class="slds-th__action slds-text-link_reset" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center c-f-discount" title="Name">15.4%</span>
+                               </div>
+                           </div>
+                       </td>
+                       <td colspan="1" aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div style="justify-content: center;" class="slds-th__action slds-text-link_reset" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">64</span>
+                               </div>
+                           </div>
+                       </td>
+                       <td colspan="1" aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div style="justify-content: center;" class="slds-th__action slds-text-link_reset" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name"></span>
+                               </div>
+                           </div>
+                       </td>
+                       <td colspan="1" aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div style="justify-content: center;" class="slds-th__action slds-text-link_reset" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">12731419.4</span>
+                               </div>
+                           </div>
+                       </td>
+                       <td colspan="1" aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div style="justify-content: center;" class="slds-th__action slds-text-link_reset" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center c-f-total" title="Name">10765200.0</span>
+                               </div>
+                           </div>
+                       </td>
+                       <td colspan="1" aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+                           style="width:8.75rem">
+                           <div style="justify-content: center;" class="slds-th__action slds-text-link_reset" href="#" role="button"
+                               tabindex="-1">
+                               <div class="slds-grid slds-grid_vertical-align-center">
+                                   <span class="c-text-center" title="Name">58.7%</span>
+                               </div>
+                           </div>
+                       </td>
+                   </tr>
+               </tfoot> -->
+           </table>
+       </div>
+   </template>
